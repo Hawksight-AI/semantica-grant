@@ -54,12 +54,6 @@
                 "type": "payment-provider",
                 "address": "https://github.com/sponsors/Hawksight-AI",
                 "description": "Support Semantica through GitHub Sponsors with recurring or one-time payments."
-            },
-            {
-                "guid": "open-collective",
-                "type": "payment-provider",
-                "address": "https://opencollective.com/semantica",
-                "description": "Community funding through the Open Collective platform."
             }
         ],
         "plans": [
@@ -81,7 +75,7 @@
                 "amount": 4000,
                 "currency": "USD",
                 "frequency": "monthly",
-                "channels": ["github-sponsors", "open-collective", "bank-transfer"]
+                "channels": ["github-sponsors", "bank-transfer"]
             },
             {
                 "guid": "infrastructure-monthly",
@@ -91,7 +85,7 @@
                 "amount": 1000,
                 "currency": "USD",
                 "frequency": "monthly",
-                "channels": ["github-sponsors", "open-collective", "bank-transfer"]
+                "channels": ["github-sponsors", "bank-transfer"]
             },
             {
                 "guid": "community-support",
@@ -101,7 +95,7 @@
                 "amount": 0,
                 "currency": "USD",
                 "frequency": "one-time",
-                "channels": ["github-sponsors", "open-collective", "bank-transfer"]
+                "channels": ["github-sponsors", "bank-transfer"]
             }
         ],
         "history": [
