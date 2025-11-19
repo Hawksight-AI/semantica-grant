@@ -49,18 +49,6 @@
                 "address": "",
                 "description": "Direct bank transfers accepted. Please email kaifahmad087@gmail.com for bank account details."
             },
-            {
-                "guid": "github-sponsors",
-                "type": "payment-provider",
-                "address": "https://github.com/sponsors/semantica-dev",
-                "description": "Support Semantica through GitHub Sponsors with recurring or one-time payments."
-            },
-            {
-                "guid": "open-collective",
-                "type": "payment-provider",
-                "address": "https://opencollective.com/semantica",
-                "description": "Community funding through Open Collective platform."
-            }
         ],
         "plans": [
             {
