@@ -17,7 +17,7 @@
         {
             "guid": "semantica",
             "name": "Semantica",
-            "description": "Semantica is an open-source semantic layer and knowledge engineering framework bridging the gap between raw unstructured data and AI-ready knowledge systems. Modern AI applications (RAG, agents, multi-agent systems) require structured semantic knowledge with relationships, ontologies, and context—but existing tools process data as isolated documents without understanding semantic connections.\n\nSemantica transforms unstructured data (PDFs, emails, web, databases) into production-ready knowledge graphs through a complete pipeline: universal data ingestion (50+ formats), semantic extraction (entities, relationships, events), automatic ontology generation via 6-stage LLM pipeline, knowledge graph construction with conflict resolution, and GraphRAG combining vector search with graph traversal for 30% accuracy gains.\n\nThe framework is MIT-licensed, production-ready with 29 modules covering ingestion, parsing, semantic extraction, graph construction, reasoning, quality assurance, and AI application integration. Expected outcomes: a mature open-source semantic intelligence platform enabling developers to build context-aware AI systems with structured knowledge, supporting trustworthy AI through open standards (RDF, OWL, SPARQL).",
+            "description": "Semantica is an open-source semantic layer and knowledge engineering framework bridging the gap between raw unstructured data and AI-ready knowledge systems. Modern AI applications (RAG, agents, multi-agent systems) require structured semantic knowledge with relationships, ontologies, and context—but existing tools process data as isolated documents without understanding semantic connections.\n\nSemantica transforms unstructured data (PDFs, emails, web, databases) into production-ready knowledge graphs through a complete pipeline: universal data ingestion (50+ formats), semantic extraction (entities, relationships, events), automatic ontology generation via 6-stage LLM pipeline, knowledge graph construction with conflict resolution, and GraphRAG combining vector search with graph traversal for 30% accuracy gains.\n\nThe framework is MIT-licensed, production-ready with 29 modules covering ingestion, parsing, semantic extraction, graph construction, reasoning, quality assurance, and AI application integration.",
             "webpageUrl": {
                 "url": "https://github.com/Hawksight-AI/semantica",
                 "wellKnown": ""
@@ -46,16 +46,28 @@
             {
                 "guid": "bank-transfer",
                 "type": "bank",
-                "address": "",
-                "description": "Direct bank transfers accepted. Please email kaifahmad087@gmail.com for bank account details."
+                "address": "Email-only: Contact kaifahmad087@gmail.com to receive bank account details securely.",
+                "description": "Bank transfers accepted. Email kaifahmad087@gmail.com to receive full account details and instructions."
             },
+            {
+                "guid": "github-sponsors",
+                "type": "payment-provider",
+                "address": "https://github.com/sponsors/Hawksight-AI",
+                "description": "Support Semantica through GitHub Sponsors with recurring or one-time payments."
+            },
+            {
+                "guid": "open-collective",
+                "type": "payment-provider",
+                "address": "https://opencollective.com/semantica",
+                "description": "Community funding through the Open Collective platform."
+            }
         ],
         "plans": [
             {
                 "guid": "floss-fund-annual",
                 "status": "active",
                 "name": "FLOSS/fund Annual Support",
-                "description": "Annual funding request for FLOSS/fund (Zerodha). This will support 12-18 months of full-time development, infrastructure, community building, contributor support, and expanded research activities. Budget breakdown: Human Labor (50%), Infrastructure (26%), Community (10%), Research (6%), Operational (4%), Contingency (4%).",
+                "description": "Annual funding request for FLOSS/fund (Zerodha). Supports 12–18 months of full-time development, infrastructure, community, and research.",
                 "amount": 100000,
                 "currency": "USD",
                 "frequency": "yearly",
@@ -65,7 +77,7 @@
                 "guid": "core-development-monthly",
                 "status": "active",
                 "name": "Core Development Support",
-                "description": "Monthly funding to support full-time development work on Semantica. Covers developer time, infrastructure costs, and essential tools.",
+                "description": "Monthly funding to support full-time development of Semantica, including developer time and core tools.",
                 "amount": 4000,
                 "currency": "USD",
                 "frequency": "monthly",
@@ -75,7 +87,7 @@
                 "guid": "infrastructure-monthly",
                 "status": "active",
                 "name": "Infrastructure Support",
-                "description": "Monthly funding to cover infrastructure costs including database hosting, cloud CI/CD, GPU compute, and developer tools.",
+                "description": "Funds infrastructure such as hosting, databases, CI/CD, GPU compute, and automation pipelines.",
                 "amount": 1000,
                 "currency": "USD",
                 "frequency": "monthly",
@@ -85,7 +97,7 @@
                 "guid": "community-support",
                 "status": "active",
                 "name": "Community Building",
-                "description": "One-time or recurring support for community activities including conferences, workshops, documentation, and developer outreach.",
+                "description": "Supports workshops, conferences, documentation, developer outreach, and community growth.",
                 "amount": 0,
                 "currency": "USD",
                 "frequency": "one-time",
@@ -99,9 +111,8 @@
                 "expenses": 0,
                 "taxes": 0,
                 "currency": "USD",
-                "description": "Fully bootstrapped project with no past funding sources. All development done solo with personal resources."
+                "description": "Fully bootstrapped project with no past funding sources. All development done using personal resources."
             }
         ]
     }
 }
-
