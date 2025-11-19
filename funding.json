@@ -1,24 +1,119 @@
 {
-  "$schema": "https://fundingjson.org/schema.json",
-  "name": "Semantica",
-  "description": "Open Source Framework for Semantic Intelligence & Knowledge Engineering. Transform chaotic data into intelligent knowledge through comprehensive semantic layer infrastructure.",
-  "url": "https://github.com/Hawksight-AI/semantica",
-  "logo": "https://raw.githubusercontent.com/Hawksight-AI/semantica/main/semantica_logo.png",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Hawksight-AI/semantica"
-  },
-  "funding": [
-    {
-      "type": "floss-fund",
-      "url": "https://floss.fund",
-      "amount": {
-        "value": 100000,
-        "currency": "USD",
-        "period": "yearly"
-      },
-      "description": "Support for 12 months of full-time development, expanded team, infrastructure scaling, comprehensive contributor programs, and community engagement to bring Semantica to production maturity and establish sustainable open-source ecosystem."
+    "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+    "version": "v1.0.0",
+    "entity": {
+        "type": "individual",
+        "role": "owner",
+        "name": "Mohd Kaif",
+        "email": "kaifahmad087@gmail.com",
+        "phone": "",
+        "description": "AI Engineer dedicated to building production AI systems and semantic technologies. Recently left full-time position to focus entirely on Semantica, recognizing the critical gap in the open-source ecosystem for comprehensive semantic layer infrastructure.\n\nOver a year of solo development has resulted in 29 production-ready modules, comprehensive documentation, and 50+ Jupyter notebook tutorials. Committed to advancing open-source semantic intelligence and enabling developers globally to build context-aware AI systems with structured knowledge.",
+        "webpageUrl": {
+            "url": "https://github.com/Hawksight-AI/semantica",
+            "wellKnown": ""
+        }
+    },
+    "projects": [
+        {
+            "guid": "semantica",
+            "name": "Semantica",
+            "description": "Semantica is an open-source semantic layer and knowledge engineering framework bridging the gap between raw unstructured data and AI-ready knowledge systems. Modern AI applications (RAG, agents, multi-agent systems) require structured semantic knowledge with relationships, ontologies, and context—but existing tools process data as isolated documents without understanding semantic connections.\n\nSemantica transforms unstructured data (PDFs, emails, web, databases) into production-ready knowledge graphs through a complete pipeline: universal data ingestion (50+ formats), semantic extraction (entities, relationships, events), automatic ontology generation via 6-stage LLM pipeline, knowledge graph construction with conflict resolution, and GraphRAG combining vector search with graph traversal for 30% accuracy gains.\n\nThe framework is MIT-licensed, production-ready with 29 modules covering ingestion, parsing, semantic extraction, graph construction, reasoning, quality assurance, and AI application integration. Expected outcomes: a mature open-source semantic intelligence platform enabling developers to build context-aware AI systems with structured knowledge, supporting trustworthy AI through open standards (RDF, OWL, SPARQL).",
+            "webpageUrl": {
+                "url": "https://github.com/Hawksight-AI/semantica",
+                "wellKnown": ""
+            },
+            "repositoryUrl": {
+                "url": "https://github.com/Hawksight-AI/semantica",
+                "wellKnown": ""
+            },
+            "licenses": ["spdx:MIT"],
+            "tags": [
+                "semantic-web",
+                "knowledge-graph",
+                "ai",
+                "machine-learning",
+                "nlp",
+                "rag",
+                "graphrag",
+                "ontology",
+                "rdf",
+                "open-source"
+            ]
+        }
+    ],
+    "funding": {
+        "channels": [
+            {
+                "guid": "bank-transfer",
+                "type": "bank",
+                "address": "",
+                "description": "Direct bank transfers accepted. Please email kaifahmad087@gmail.com for bank account details."
+            },
+            {
+                "guid": "github-sponsors",
+                "type": "payment-provider",
+                "address": "https://github.com/sponsors/semantica-dev",
+                "description": "Support Semantica through GitHub Sponsors with recurring or one-time payments."
+            },
+            {
+                "guid": "open-collective",
+                "type": "payment-provider",
+                "address": "https://opencollective.com/semantica",
+                "description": "Community funding through Open Collective platform."
+            }
+        ],
+        "plans": [
+            {
+                "guid": "floss-fund-annual",
+                "status": "active",
+                "name": "FLOSS/fund Annual Support",
+                "description": "Annual funding request for FLOSS/fund (Zerodha). This will support 12-18 months of full-time development, infrastructure, community building, contributor support, and expanded research activities. Budget breakdown: Human Labor (50%), Infrastructure (26%), Community (10%), Research (6%), Operational (4%), Contingency (4%).",
+                "amount": 100000,
+                "currency": "USD",
+                "frequency": "yearly",
+                "channels": ["bank-transfer"]
+            },
+            {
+                "guid": "core-development-monthly",
+                "status": "active",
+                "name": "Core Development Support",
+                "description": "Monthly funding to support full-time development work on Semantica. Covers developer time, infrastructure costs, and essential tools.",
+                "amount": 4000,
+                "currency": "USD",
+                "frequency": "monthly",
+                "channels": ["github-sponsors", "open-collective", "bank-transfer"]
+            },
+            {
+                "guid": "infrastructure-monthly",
+                "status": "active",
+                "name": "Infrastructure Support",
+                "description": "Monthly funding to cover infrastructure costs including database hosting, cloud CI/CD, GPU compute, and developer tools.",
+                "amount": 1000,
+                "currency": "USD",
+                "frequency": "monthly",
+                "channels": ["github-sponsors", "open-collective", "bank-transfer"]
+            },
+            {
+                "guid": "community-support",
+                "status": "active",
+                "name": "Community Building",
+                "description": "One-time or recurring support for community activities including conferences, workshops, documentation, and developer outreach.",
+                "amount": 0,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["github-sponsors", "open-collective", "bank-transfer"]
+            }
+        ],
+        "history": [
+            {
+                "year": 2024,
+                "income": 0,
+                "expenses": 0,
+                "taxes": 0,
+                "currency": "USD",
+                "description": "Fully bootstrapped project with no past funding sources. All development done solo with personal resources."
+            }
+        ]
     }
-  ]
 }
+
