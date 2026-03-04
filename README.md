@@ -26,23 +26,27 @@ I left my job to work on Semantica full-time after seeing no credible open-sourc
 - **W3C PROV-O compliant provenance tracking** across 17 module integrations
 - **Integrations** with FAISS, Neo4j, AWS Neptune, Apache AGE, Docling, and 100+ LLMs via LiteLLM
 
-This $50,000 grant sustains 12 months of continued full-time development. The budget is lean and realistic: maintainer living costs, infrastructure, documentation, and tooling. No overhead, no waste.
+This $50,000 grant funds 12 months of development with a **small, distributed part-time team** rather than a single maintainer. The lead maintainer stipend is deliberately reduced to fund two part-time engineers, a technical writer, and an open bounty pool for community contributors. This is a conscious choice: more people, more resilience, faster progress.
 
 ## Budget at a glance
 
 | Item | Amount |
 |---|---|
-| Maintainer living costs (12 months) | $38,000 |
-| Infrastructure & cloud tooling | $5,000 |
-| Documentation, tutorials & community | $4,500 |
-| API costs for integration tests | $2,500 |
+| Lead maintainer stipend (12 months, full-time) | $26,000 |
+| Part-time engineer #1 — KG algorithms & backend (~10 hrs/week) | $7,200 |
+| Part-time engineer #2 — integrations & vector stores (~8 hrs/week) | $5,760 |
+| Part-time technical writer & community manager (~6 hrs/week) | $3,600 |
+| Open bounty pool (community PRs, bug fixes, cookbooks) | $2,440 |
+| Infrastructure, CI/CD, cloud databases | $3,000 |
+| API credits for integration tests (OpenAI, Groq, Anthropic) | $2,000 |
 | **Total** | **$50,000** |
 
 ## Planned deliverables (12 months)
 
-1. Stable **v1.0 release** with frozen public API
+1. Stable **v1.0 release** with frozen public API and migration guides
 2. Full **test coverage** (unit + integration) across all 29 modules
 3. Published **performance benchmarks** — GraphRAG vs. plain RAG across 5 domains
-4. Expanded integrations: Weaviate, Qdrant, ChromaDB, Pinecone, Anthropic, Gemini
-5. Healthcare and finance **compliance guides** (HIPAA, SOX) with working examples
-6. Active **community**: Discord, GitHub Discussions, monthly release notes
+4. Expanded integrations: Weaviate, Qdrant, ChromaDB, Pinecone; Anthropic and Gemini LLM providers
+5. Healthcare and finance **compliance guides** (HIPAA, SOX) with working code examples
+6. **10+ community-contributed cookbooks** via bounty programme
+7. Active, self-sustaining **community**: Discord, GitHub Discussions, monthly release notes
