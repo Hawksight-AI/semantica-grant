@@ -7,7 +7,7 @@
         "name": "Mohd Kaif",
         "email": "kaifahmad087@gmail.com",
         "phone": "",
-        "description": "AI Engineer dedicated to building production AI systems and semantic technologies. Recently left full-time position to focus entirely on Semantica, recognizing the critical gap in the open-source ecosystem for comprehensive semantic layer infrastructure.\n\nOver a year of solo development has resulted in 29 production-ready modules, comprehensive documentation, and 50+ Jupyter notebook tutorials. Committed to advancing open-source semantic intelligence and enabling developers globally to build context-aware AI systems with structured knowledge.",
+        "description": "Solo AI engineer and the full-time maintainer of Semantica. I left my job to focus entirely on this project after recognising a clear and unmet need in the open-source ecosystem: developers building AI systems had no solid, production-ready framework for semantic reasoning, knowledge graphs, and explainable decision tracking.\n\nOver the past year I have shipped 29 production-ready modules, 50+ Jupyter notebook tutorials, integrations with FAISS, Neo4j, AWS Neptune, Apache AGE, and Docling, and a complete W3C PROV-O compliant provenance layer — all without any external funding. Everything has been self-funded and self-maintained.\n\nThis grant would allow me to continue full-time for the next 12 months: completing the roadmap, stabilising APIs, growing the community, and keeping Semantica free and open for everyone.",
         "webpageUrl": {
             "url": "https://github.com/Hawksight-AI/semantica",
             "wellKnown": ""
@@ -17,7 +17,7 @@
         {
             "guid": "semantica",
             "name": "Semantica",
-            "description": "Semantica is an open-source semantic layer and knowledge engineering framework bridging the gap between raw unstructured data and AI-ready knowledge systems. Modern AI applications (RAG, agents, multi-agent systems) require structured semantic knowledge with relationships, ontologies, and context—but existing tools process data as isolated documents without understanding semantic connections.\n\nSemantica transforms unstructured data (PDFs, emails, web, databases) into production-ready knowledge graphs through a complete pipeline: universal data ingestion (50+ formats), semantic extraction (entities, relationships, events), automatic ontology generation via 6-stage LLM pipeline, knowledge graph construction with conflict resolution, and GraphRAG combining vector search with graph traversal for 30% accuracy gains.\n\nThe framework is MIT-licensed, production-ready with 29 modules covering ingestion, parsing, semantic extraction, graph construction, reasoning, quality assurance, and AI application integration.",
+            "description": "Semantica is a free, MIT-licensed Python framework that gives AI applications a proper semantic layer — the missing piece between raw text and trustworthy AI.\n\nThe problem: Modern AI systems (RAG pipelines, agents, multi-agent workflows) treat knowledge as bags of text chunks. They have no understanding of entities, relationships, rules, or decision history. In high-stakes domains — healthcare, finance, legal, cybersecurity — this leads to black-box answers that cannot be explained, audited, or trusted.\n\nWhat Semantica does: It provides a complete, end-to-end pipeline from raw data to governed, explainable AI output:\n• Universal ingestion — 50+ file formats (PDF, DOCX, HTML, CSV, databases, APIs)\n• Semantic extraction — named entity recognition, relationship extraction, event detection\n• Knowledge graph construction — with conflict detection, deduplication, and entity resolution\n• Automatic ontology generation — 6-stage LLM pipeline producing OWL ontologies\n• GraphRAG — hybrid vector + graph retrieval for 30%+ accuracy gains over plain RAG\n• Decision tracking — full lifecycle management with precedent search, causal analysis, and policy compliance\n• Provenance tracking — W3C PROV-O compliant lineage from source document to AI response\n• Change management — versioned knowledge graphs with SHA-256 integrity verification\n\nWhat makes it different: Semantica is not another wrapper around LangChain. It is the semantic intelligence layer that sits beneath your agents and makes them auditable, explainable, and trustworthy. It integrates with LangChain, LlamaIndex, AutoGen, CrewAI, and other frameworks rather than replacing them.\n\nTraction: Available on PyPI, actively downloaded, MIT-licensed, 29 production-ready modules, 50+ tutorial notebooks spanning 14 real-world use-case domains (biomedical, finance, cybersecurity, supply chain, government, autonomous systems).\n\nThis funding will sustain full-time development for 12 months, enabling API stabilisation, expanded integrations, performance improvements, and community growth.",
             "webpageUrl": {
                 "url": "https://github.com/Hawksight-AI/semantica",
                 "wellKnown": ""
@@ -36,7 +36,7 @@
                 "rag",
                 "graphrag",
                 "ontology",
-                "rdf",
+                "explainable-ai",
                 "open-source"
             ]
         }
@@ -58,21 +58,21 @@
         ],
         "plans": [
             {
-                "guid": "floss-fund-annual",
+                "guid": "floss-fund-grant",
                 "status": "active",
-                "name": "FLOSS/fund Annual Support",
-                "description": "Annual funding request for FLOSS/fund (Zerodha). Supports 12–18 months of full-time development, infrastructure, community, and research.",
-                "amount": 100000,
+                "name": "FLOSS/fund Grant — 12 Months Full-Time Development",
+                "description": "One-time grant to sustain 12 months of full-time, open-source development of Semantica.\n\nBudget breakdown:\n• Maintainer living costs (12 months) — $38,000: Allows full-time focus with no pressure to take on consulting or employment, ensuring the project moves forward consistently.\n• Infrastructure & tooling — $5,000: CI/CD runners, GPU compute for embedding and ontology generation tests, cloud graph database instances (Neptune, Neo4j Aura) used for integration testing, PyPI and documentation hosting.\n• Documentation, tutorials & community — $4,500: Writing domain-specific cookbooks, video walkthroughs, developer onboarding guides, and attending or presenting at one open-source conference.\n• Dependency licences & third-party tools — $2,500: Paid APIs (OpenAI, Groq) used for automated integration tests and cookbook generation.\n\nTotal: $50,000 USD\n\nDeliverables over 12 months:\n1. Stable v1.0 release with frozen public API and migration guides\n2. Full test coverage (unit + integration) across all 29 modules\n3. Performance benchmarks published for GraphRAG vs. plain RAG across 5 domains\n4. Expanded integrations: Weaviate, Qdrant, ChromaDB, Pinecone vector stores; Anthropic and Gemini LLM providers\n5. Healthcare and finance compliance guides (HIPAA, SOX) with example implementations\n6. Active community: Discord, GitHub Discussions, monthly release notes\n\nWhy $50,000 and not more: This is a lean, realistic budget for one dedicated maintainer. It covers living costs and project costs without waste. The ask is deliberately modest to demonstrate accountability and to fit within what is sustainable for a solo open-source project at this stage.",
+                "amount": 50000,
                 "currency": "USD",
-                "frequency": "yearly",
+                "frequency": "one-time",
                 "channels": ["bank-transfer"]
             },
             {
                 "guid": "core-development-monthly",
                 "status": "active",
-                "name": "Core Development Support",
-                "description": "Monthly funding to support full-time development of Semantica, including developer time and core tools.",
-                "amount": 4000,
+                "name": "Core Development Support (Monthly Sponsors)",
+                "description": "Monthly sponsorship to support ongoing full-time development of Semantica. Covers maintainer time, infrastructure, and tooling on a sustainable recurring basis.",
+                "amount": 3000,
                 "currency": "USD",
                 "frequency": "monthly",
                 "channels": ["github-sponsors", "bank-transfer"]
@@ -80,21 +80,11 @@
             {
                 "guid": "infrastructure-monthly",
                 "status": "active",
-                "name": "Infrastructure Support",
-                "description": "Funds infrastructure such as hosting, databases, CI/CD, GPU compute, and automation pipelines.",
-                "amount": 1000,
+                "name": "Infrastructure Support (Monthly Sponsors)",
+                "description": "Covers hosting, CI/CD, cloud database instances, GPU compute for tests, and automation pipelines used in development and integration testing.",
+                "amount": 500,
                 "currency": "USD",
                 "frequency": "monthly",
-                "channels": ["github-sponsors", "bank-transfer"]
-            },
-            {
-                "guid": "community-support",
-                "status": "active",
-                "name": "Community Building",
-                "description": "Supports workshops, conferences, documentation, developer outreach, and community growth.",
-                "amount": 0,
-                "currency": "USD",
-                "frequency": "one-time",
                 "channels": ["github-sponsors", "bank-transfer"]
             }
         ],
@@ -105,7 +95,7 @@
                 "expenses": 0,
                 "taxes": 0,
                 "currency": "USD",
-                "description": "Fully bootstrapped project with no past funding sources. All development done using personal resources."
+                "description": "Fully self-funded. No external grants, investors, or sponsorships. All development carried out using personal savings after leaving employment to work on Semantica full-time."
             }
         ]
     }
